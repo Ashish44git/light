@@ -1,6 +1,5 @@
 .About {
   font-family: poppins, sans-serif;
-  height: calc(100vh - 5rem);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -112,6 +111,31 @@
   .skill-card img {
     width: 12vh;
     height: 12vh;
+  }
+}
+@media screen and (max-width: 670px) {
+  .about-header {
+    font-size: 1.245rem;
+  }
+  .para-about {
+    padding: 0 2rem;
+    font-size: 1.1rem;
+  }
+
+  .skill-cards {
+    gap: 0.5rem;
+    padding: 1rem;
+  }
+  .skill-card {
+    font-size: 0.7rem;
+    gap: 0.3rem;
+    border: 1.5px solid grey;
+    padding: 0.6rem;
+    border-radius: 1rem;
+  }
+  .skill-card img {
+    width: 10vh;
+    height: 10vh;
   }
 }
 @media screen and (max-width: 495px) {
