@@ -79,6 +79,9 @@
 .logo-icon:hover {
   transform: scale(2);
 }
+textarea {
+  resize: none;
+}
 @media screen and (max-width: 1065px) {
   .more-header {
     font-size: 1.5rem;
