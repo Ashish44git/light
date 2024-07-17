@@ -2,6 +2,8 @@
   font-family: poppins, sans-serif;
   display: flex;
   flex-direction: column;
+  height: calc(100vh - 5rem);
+
   align-items: center;
   padding: 2rem;
   gap: 1rem;
