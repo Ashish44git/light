@@ -4,6 +4,7 @@
   flex-direction: column;
   align-items: center;
   padding-bottom: 2rem;
+  height: calc(100vh - 5rem);
   gap: 1rem;
 }
 .projects-header {

@@ -1,6 +1,8 @@
 .intro {
   overflow: hidden;
   font-family: "poppins", sans-serif;
+  height: calc(100vh - 5rem);
+
 }
 .introContent {
   display: flex;
@@ -74,6 +76,7 @@
 }
 .para {
   display: contents;
+
   text-align: justify;
   width: 60vw;
 }
