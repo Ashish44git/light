@@ -51,11 +51,12 @@
   font-family: "poppins", sans-serif;
   width: 8rem;
   border-radius: 2rem;
-  box-shadow: 0px 0px 4px 1px #ffffff;
-  background-color: white;
+  box-shadow: 0px 0px 4px 1px #616161;
+  background-color: rgb(0, 0, 0);
   margin-top: 1rem;
   padding: 0.8rem 0.6rem;
   border: none;
+  color: #ffffff;
   transition: 0.5s;
 }
 .submit:hover {
